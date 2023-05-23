@@ -20,6 +20,32 @@ body {
   font-size: 8px;
 }
 
+.card-pic img {
+  margin-top: -150px;
+}
+
+.card-top-padding {
+  padding-top: 250px !important;
+}
+
+.card-2-top-padding {
+  padding-top: 200px !important;
+}
+
+.card-3-top-padding {
+  padding-top: 185px !important;
+}
+
+.btn-card {
+  margin-top: -40px;
+  z-index: 1;
+}
+
+.card-border {
+  border-radius: 29px !important;
+  z-index: -1;
+}
+
 /*************************************** Line Break Media Queury CSS ****************************************/
 
 /* // Small devices (landscape phones, less than 768px) */

@@ -1,618 +1,668 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!---------------------------------------------- Boxicon CDN --------------------------------------------->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!---------------------------------------------- Boxicon CDN --------------------------------------------->
 
-    <!-------------------------------------------- Custom CSS Link ------------------------------------------->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-------------------------------------------- Custom CSS Link ------------------------------------------->
 
-    <title>TIKL</title>
-  </head>
-  <body>
-    <div class="container">
-      <!----------------------------------------- Navbar Section Started ------------------------------------->
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-      <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark mt-3 my-3 navbar-border-radius ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./assets/images/logo.svg" class="img-fluid" alt="" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item text-white">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                    href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                    href="#"
-                    >Pro/Price</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                    href="#"
-                    >FAQs</a
-                  >
-                </li>
-              </ul>
-              <div class="d-flex gap-2">
-                <div>
-                  <button
-                    class="rounded-pill px-3 py-2 text-white bg-dark border"
-                  >
-                    Design Your Card
-                  </button>
-                </div>
+  <title>TIKL</title>
+</head>
 
-                <div>
-                  <button
-                    class="rounded-pill px-3 py-2 text-white bg-dark border"
-                  >
-                    Contact me
-                  </button>
-                </div>
+<body>
+
+  <div class="container">
+    <!----------------------------------------- Navbar Section Started ------------------------------------->
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark  my-3 navbar-border-radius ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="./assets/images/logo.svg" class="img-fluid" alt="" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item text-white">
+                <a class="nav-link active text-white" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="/price.html">Pro/Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="/faq.html">FAQs</a>
+              </li>
+            </ul>
+            <div class="d-flex gap-2">
+              <div>
+                <button class="rounded-pill px-3 py-2 text-white bg-dark border">
+                  Design Your Card
+                </button>
+              </div>
+
+              <div>
+                <button class="rounded-pill px-3 py-2 text-white bg-dark border">
+                  Contact me
+                </button>
               </div>
             </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!------------------------------------------ Navbar Section Ended -------------------------------------->
+
+    <!------------------------------------------ Hero Section Started -------------------------------------->
+
+    <div class="row">
+      <div class="col-12 col-md-6 pt-md-5">
+        <h1 class="pt-5 ">
+          Business Card <span class="divider"></span> that you Need the <span class="divider"></span> Most </span>
+        </h1>
+        <p class="light-color py-3">Share your Social Media Detail Right Away <span class="divider"></span> with any one
+          you want </p>
+
+        <button class="bg-dark text-white rounded-pill px-5 py-3">
+          Create your card
+        </button>
+
+        <div class="my-3">
+          <div class="d-flex gap-2">
+            <a href="#" class="text-decoration-none">
+              <button class="d-flex  align-items-center gap-2 bg-transparent rounded-pill px-2 py-2 border border-dark">
+                <div>
+                  <img src="./assets/images/google-play.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <p class="m-0 get-text">GET IT ON</p>
+                  <h6 class="m-0">Google Play</h6>
+                </div>
+              </button>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <button class="d-flex  align-items-center gap-2 bg-transparent rounded-pill px-3 py-2 border border-dark">
+                <div>
+                  <img src="./assets/images/apple-logo.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <p class="m-0 get-text">Download on the </p>
+                  <h6 class="m-0">App Store</h6>
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6">
+        <img src="./assets/images/hero.svg" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <!------------------------------------------- Hero Section Ended --------------------------------------->
+
+    <!----------------------------------------- Sponser Section Started ------------------------------------>
+    <p class=" pt-4 text-center">Our Respected clients around the globe </p>
+
+    <div class="row text-center py-4 gy-5">
+
+      <div class="col-12 col-md-3">
+        <img src="./assets/images/nordea.svg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-md-3">
+        <img src="./assets/images/colliers.svg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-md-3">
+        <img src="./assets/images/BR.svg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-md-3">
+        <img src="./assets/images/looplabz.svg" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <!------------------------------------------ Sponser Section Ended ------------------------------------->
+
+    <!------------------------------------------- Tabs Section Started ------------------------------------->
+
+    <div class="row">
+      <h5 class="text-center pt-3 m-0">Amazing features for better networking </h5>
+      <div class="d-flex justify-content-center">
+        <hr class="w-25 m-0 ">
+      </div>
+      <div class="d-flex justify-content-center my-4   ">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+              type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+              <img src="./assets/images/share.svg" class="img-fluid" alt="">
+              <p class="py-1">Share personal info</p>
+            </button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+              type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              <img src="./assets/images/hunt.svg" class="img-fluid" alt="">
+              <p class="py-1 ">Hunt Leads</p>
+            </button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+              type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+              <img src="./assets/images/export.svg" class="img-fluid" alt="">
+              <p class="py-1">Export to CRM</p>
+            </button>
+            <button class="nav-link" id="nav-forth-tab" data-bs-toggle="tab" data-bs-target="#nav-forth" type="button"
+              role="tab" aria-controls="nav-forth" aria-selected="false">
+              <img src="./assets/images/grow.svg" class="img-fluid" alt="">
+              <p class="py-1">Grow quicker</p>
+            </button>
           </div>
         </nav>
       </div>
 
-      <!------------------------------------------ Navbar Section Ended -------------------------------------->
+      <!------------------------------------   Tabs Content Section Started ------------------------>
 
-      <!------------------------------------------ Hero Section Started -------------------------------------->
+      <div class="tab-content" id="nav-tabContent">
 
-      <div class="row">
-        <div class="col-12 col-md-6 pt-md-5">
-          <h1 class="pt-5 ">
-            Business Card <span class="divider"></span> that you Need the <span class="divider"></span> Most </span>
-          </h1>
-          <p class="light-color py-3">Share your Social Media Detail Right Away <span class="divider"></span> with any one you want </p>
-        
-          <button class="bg-dark text-white rounded-pill px-5 py-3" >
-            Create your card
-          </button>
+        <!-------------------------------------- First Tabs Section Started -------------------------->
 
-          <div class="my-3">
-          <div class="d-flex gap-2">
-            <a href="#" class="text-decoration-none">
-                <button class="d-flex  align-items-center gap-2 bg-transparent rounded-pill px-2 py-2 border border-dark">
-                    <div>
-                        <img src="./assets/images/google-play.svg" class="img-fluid" alt="">
-                    </div>
-                    <div>
-                        <p class="m-0 get-text">GET IT ON</p>
-                        <h6 class="m-0">Google Play</h6>
-                    </div>
-                </button>
-              </a>
-            <a href="#" class="text-decoration-none">
-                <button class="d-flex  align-items-center gap-2 bg-transparent rounded-pill px-3 py-2 border border-dark">
-                    <div>
-                        <img src="./assets/images/apple-logo.svg" class="img-fluid" alt="">
-                    </div>
-                    <div>
-                        <p class="m-0 get-text">Download on the </p>
-                        <h6 class="m-0">App Store</h6>
-                    </div>
-                </button>
-              </a>
-          </div>
-          </div>
-        
-        </div>
-        <div class="col-12 col-md-6">
-            <img src="./assets/images/hero.svg" class="img-fluid"  alt="">
-        </div>
-      </div>
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h1 class="mt-5">
+                Share your personal <span class="divider"></span> information with one tap
+              </h1>
+              <p>Share your info right away with a touch, <span class="divider"></span> scan, or send. Share contact
+                detail, social <span class="divider"></span> media, websites, payment, documents, <span
+                  class="divider"></span> videos and more.</p>
 
-      <!------------------------------------------- Hero Section Ended --------------------------------------->
-      
-      <!----------------------------------------- Sponser Section Started ------------------------------------>
-      <p class=" pt-4 text-center">Our Respected clients around the globe </p>
-      
-      <div class="row text-center py-4 gy-5">
-   
-        <div class="col-12 col-md-3">
-            <img src="./assets/images/nordea.svg" class="img-fluid" alt="">
-        </div>
-        <div class="col-12 col-md-3">
-            <img src="./assets/images/colliers.svg" class="img-fluid" alt="">
-        </div>
-        <div class="col-12 col-md-3">
-            <img src="./assets/images/BR.svg" class="img-fluid" alt="">
-        </div>
-        <div class="col-12 col-md-3">
-            <img src="./assets/images/looplabz.svg" class="img-fluid" alt="">
-        </div>
-      </div>
-      
-      <!------------------------------------------ Sponser Section Ended ------------------------------------->
-     
-      <!------------------------------------------- Tabs Section Started ------------------------------------->
-      
-      <div class="row">
-        <h5 class="text-center pt-3 m-0">Amazing features for better networking </h5>
-        <div class="d-flex justify-content-center">
-            <hr class="w-25 m-0 ">
-        </div>
-        <div class="d-flex justify-content-center mt-4 ">
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-                    <img src="./assets/images/share.svg" class="img-fluid" alt="">
-                    <p class="py-1">Share personal info</p>
-                  </button>
-                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-                      <img src="./assets/images/hunt.svg" class="img-fluid" alt="">
-                    <p class="py-1 ">Hunt Leads</p>
-                  </button>
-                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
-                    <img src="./assets/images/export.svg" class="img-fluid" alt="">
-                    <p class="py-1">Export to CRM</p>
-                  </button>
-                  <button class="nav-link" id="nav-forth-tab" data-bs-toggle="tab" data-bs-target="#nav-forth" type="button" role="tab" aria-controls="nav-forth" aria-selected="false">
-                    <img src="./assets/images/grow.svg" class="img-fluid" alt="">
-                    <p class="py-1">Grow quicker</p>
-                  </button>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/touch.svg" class="img-fluid" alt="">
                 </div>
-              </nav>
-            </div>
-
-                <!------------------------------------   Tabs Content Section Started ------------------------>
-
-              <div class="tab-content" id="nav-tabContent">
-                
-                <!-------------------------------------- First Tabs Section Started -------------------------->
-
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6">
-                            <h1 class="mt-5">
-                                Share your personal <span class="divider"></span> information with one tap
-                            </h1>
-                            <p>Share your info right away with a touch, <span class="divider"></span> scan, or send. Share contact detail, social <span class="divider"></span> media, websites, payment, documents, <span class="divider"></span> videos and more.</p>
-                        
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/touch.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Touch</h4>
-                                    <p>Share your info right away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/scan.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Scan</h4>
-                                    <p>Share your info right away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/send.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Send</h4>
-                                    <p>Share your info right away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                        
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <img src="./assets/images/tab-1.svg" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                <div>
+                  <h4>Touch</h4>
+                  <p>Share your info right away with a <span class="divider"></span> touch, scan, or send. Share</p>
                 </div>
-
-                <!-------------------------------------- First Tabs Section Ended ---------------------------->
-                
-                <!------------------------------------ Second Tabs Section Started --------------------------->
-
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6">
-                            <h1 class="my-4">
-                                Hunt Leads </h1>
-                          <p>Find your leads and grow your business. This <span class="divider"></span> is a great feature that will help you to stay <span class="divider"></span> connected with your business community. <span class="divider"></span> Hunt your leads now.</p>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/exchange_info.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Exchange information</h4>
-                                    <p>Scan your card away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/hunt.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Hunt Leads</h4>
-                                    <p>Exchange contact to build up <span class="divider"></span> your prospect list. </p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/collect_info.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Collect info</h4>
-                                    <p>Collect info right away and <span class="divider"></span> create group segmentation. </p>
-                                </div>
-                            </div>
-                        
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <img src="./assets/images/tab-2.svg" class="img-fluid" alt="">
-                        </div>
-                    </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/scan.svg" class="img-fluid" alt="">
                 </div>
-
-                <!------------------------------------- Second Tabs Section Ended ---------------------------->
-                
-                <!------------------------------------ Third Tabs Section Started ---------------------------->
-
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6">
-                            <h1 class="my-4">Export to CRM </h1>
-                            <p>Find your leads and grow your business. This <span class="divider"></span> is a great feature that will help you to stay <span class="divider"></span> connected with your business community. <span class="divider"></span> Hunt your leads now.</p>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/like.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Its works with CRM</h4>
-                                    <p>Scan your card away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/team.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>For Teams</h4>
-                                    <p>Hunt leads right away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/intigrate.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Intigrate with many app</h4>
-                                    <p>Collect info right away with a <span class="divider"></span> touch or Share.</p>
-                                </div>
-                            </div>
-                        
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <img src="./assets/images/tab-3.svg" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                <div>
+                  <h4>Scan</h4>
+                  <p>Share your info right away with a <span class="divider"></span> touch, scan, or send. Share</p>
                 </div>
-
-                <!------------------------------------ Third Tabs Section Ended ------------------------------>
-                
-                <!----------------------------------- Forth Tabs Section Started ----------------------------->
-
-                <div class="tab-pane fade" id="nav-forth" role="tabpanel" aria-labelledby="nav-forth-tab">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-6">
-                            <h1 class="my-4">Grow quicker  </h1>
-                            <p>Find your leads and grow your business. This <span class="divider"></span> is a great feature that will help you to stay <span class="divider"></span> connected with your business community. <span class="divider"></span> Hunt your leads now.</p>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/team.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Groups Intelligence</h4>
-                                    <p>Scan your card away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/touch.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>More Engagement</h4>
-                                    <p>Hunt leads right away with a <span class="divider"></span> touch, scan, or send. Share</p>
-                                </div>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center my-3">
-                                <div>
-                                    <img src="./assets/images/customer_support.svg" class="img-fluid" alt="">
-                                </div>
-                                <div>
-                                    <h4>Support 24/7</h4>
-                                    <p>Collect info right away with a <span class="divider"></span> touch or Share.</p>
-                                </div>
-                            </div>
-                        
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <img src="./assets/images/tab-4.svg" class="img-fluid" alt="">
-                        </div>
-                    </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/send.svg" class="img-fluid" alt="">
                 </div>
-            
-                <!----------------------------------- Forth Tabs Section Started ----------------------------->
+                <div>
+                  <h4>Send</h4>
+                  <p>Share your info right away with a <span class="divider"></span> touch, scan, or send. Share</p>
+                </div>
+              </div>
 
             </div>
-       
-      <!--------------------------------------------- Tabs Section Ended ------------------------------------->
-     
-      <!---------------------------------------- How it Works Section Started -------------------------------->
-      <h5 class="text-center pt-3 m-0">This is how TIKL works  </h5>
-      <div class="d-flex justify-content-center">
-        <hr class="w-25 m-0 ">
+            <div class="col-12 col-md-6">
+              <img src="./assets/images/tab-1.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-------------------------------------- First Tabs Section Ended ---------------------------->
+
+        <!------------------------------------ Second Tabs Section Started --------------------------->
+
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h1 class="my-4">
+                Hunt Leads </h1>
+              <p>Find your leads and grow your business. This <span class="divider"></span> is a great feature that will
+                help you to stay <span class="divider"></span> connected with your business community. <span
+                  class="divider"></span> Hunt your leads now.</p>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/exchange_info.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Exchange information</h4>
+                  <p>Scan your card away with a <span class="divider"></span> touch, scan, or send. Share</p>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/hunt.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Hunt Leads</h4>
+                  <p>Exchange contact to build up <span class="divider"></span> your prospect list. </p>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/collect_info.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Collect info</h4>
+                  <p>Collect info right away and <span class="divider"></span> create group segmentation. </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="./assets/images/tab-2.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------- Second Tabs Section Ended ---------------------------->
+
+        <!------------------------------------ Third Tabs Section Started ---------------------------->
+
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h1 class="my-4">Export to CRM </h1>
+              <p>Find your leads and grow your business. This <span class="divider"></span> is a great feature that will
+                help you to stay <span class="divider"></span> connected with your business community. <span
+                  class="divider"></span> Hunt your leads now.</p>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/like.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Its works with CRM</h4>
+                  <p>Scan your card away with a <span class="divider"></span> touch, scan, or send. Share</p>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/team.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>For Teams</h4>
+                  <p>Hunt leads right away with a <span class="divider"></span> touch, scan, or send. Share</p>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/intigrate.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Intigrate with many app</h4>
+                  <p>Collect info right away with a <span class="divider"></span> touch or Share.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="./assets/images/tab-3.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------ Third Tabs Section Ended ------------------------------>
+
+        <!----------------------------------- Forth Tabs Section Started ----------------------------->
+
+        <div class="tab-pane fade" id="nav-forth" role="tabpanel" aria-labelledby="nav-forth-tab">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <h1 class="my-4">Grow quicker </h1>
+              <p>Find your leads and grow your business. This <span class="divider"></span> is a great feature that will
+                help you to stay <span class="divider"></span> connected with your business community. <span
+                  class="divider"></span> Hunt your leads now.</p>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/team.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Groups Intelligence</h4>
+                  <p>Scan your card away with a <span class="divider"></span> touch, scan, or send. Share</p>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/touch.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>More Engagement</h4>
+                  <p>Hunt leads right away with a <span class="divider"></span> touch, scan, or send. Share</p>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center my-3">
+                <div>
+                  <img src="./assets/images/customer_support.svg" class="img-fluid" alt="">
+                </div>
+                <div>
+                  <h4>Support 24/7</h4>
+                  <p>Collect info right away with a <span class="divider"></span> touch or Share.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="./assets/images/tab-4.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!----------------------------------- Forth Tabs Section Started ----------------------------->
+
+      </div>
     </div>
-      <div class="row">
-        <div class="col-12 col-md-4 ">
-            <div class="card-top-padding">
-             <div class="card card-border border-0  bg-light rounded pb-5">
-                 <div class="card-pic text-center">
-                     <img src="./assets/images/card-1.svg" class="img-fluid" alt="">
-                 </div>
-                <div class="text-center px-3">
-                 <h4 >1. Design your Card</h4>
-                 <p class="card-paragraph light-color ">Share your Social <span class="divider"></span> Media Detail Right <span class="divider"></span> Away with any one you <span class="divider"></span> want </p>
-             </div>
-             </div>
-           
-            <div class="mx-2 btn-card ">
-                <button class="bg-dark w-100 py-3 border-0 text-white rounded-pill">
-                    Create your card
-                </button>
-              </div>
+
+    <!--------------------------------------------- Tabs Section Ended ------------------------------------->
+
+    <!---------------------------------------- How it Works Section Started -------------------------------->
+    <h5 class="text-center pt-3 m-0">This is how TIKL works </h5>
+    <div class="d-flex justify-content-center">
+      <hr class="w-25 m-0 ">
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 ">
+        <div class="card-top-padding">
+          <div class="card card-border border-0  bg-light rounded pb-5">
+            <div class="card-pic text-center">
+              <img src="./assets/images/card-1.svg" class="img-fluid" alt="">
+            </div>
+            <div class="text-center px-3">
+              <h4>1. Design your Card</h4>
+              <p class="card-paragraph light-color ">Share your Social <span class="divider"></span> Media Detail
+                Right <span class="divider"></span> Away with any one you <span class="divider"></span> want </p>
+            </div>
+          </div>
+
+          <div class="mx-2 btn-card ">
+            <button class="bg-dark w-100 py-3 border-0 text-white rounded-pill">
+              Create your card
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 ">
+        <div class="card-2-top-padding">
+          <div class="card card-border border-0  bg-light rounded pb-5">
+            <div class="card-pic text-center">
+              <img src="./assets/images/card-2.svg" class="img-fluid" alt="">
+            </div>
+            <div class="text-center px-3">
+              <h4>2. Set up your Profile</h4>
+              <p class="card-paragraph light-color ">Share your Social <span class="divider"></span> Media Detail
+                Right <span class="divider"></span> Away with any one you <span class="divider"></span> want </p>
+            </div>
+          </div>
+          <div class="mx-2 btn-card ">
+            <button class="bg-dark w-100 py-3 border-0 text-white rounded-pill">
+              Download now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 ">
+        <div class="card-3-top-padding">
+          <div class="card card-border border-0  bg-light rounded pb-5">
+            <div class="card-pic text-center">
+              <img src="./assets/images/card-3.svg" class="img-fluid" alt="">
+            </div>
+            <div class="text-center px-3">
+              <h4>3. Share it with Everyone</h4>
+              <p class="card-paragraph light-color ">Share your Social <span class="divider"></span> Media Detail
+                Right <span class="divider"></span> Away with any one you <span class="divider"></span> want </p>
+            </div>
+          </div>
+
+          <div class="mx-2 btn-card ">
+            <button class="bg-dark w-100 py-3 border-0 text-white rounded-pill">
+              Download now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------- How it Works Section Ended ----------------------------->
+    
+    <!--------------------------------------- Unique Features Section Started -------------------------->
+    
+    
+    <h5 class="text-center pt-5 m-0">Unique Features</h5>
+    <div class="d-flex justify-content-center">
+      <hr class=" w-25 m-0 ">
+    </div>
+    <p class="text-center pb-3">You will love these</p>
+
+    <section>
+      <div class="row my-5 gy-3">
+        <div class="col-12 col-md-3">
+         <div class="text-center">
+          <img src="/assets/images/unique-feature-1.svg" class="img-fluid" alt="">
+          <h4>Unlimited Shareing</h4>
+          <p class="light-color">Never face the shortage of business cards again </p>
          </div>
         </div>
-        <div class="col-12 col-md-4 ">
-            <div class="card-2-top-padding">
-             <div class="card card-border border-0  bg-light rounded pb-5">
-                 <div class="card-pic text-center">
-                     <img src="./assets/images/card-2.svg" class="img-fluid" alt="">
-                 </div>
-                <div class="text-center px-3">
-                 <h4 >2. Set up your Profile</h4>
-                 <p class="card-paragraph light-color ">Share your Social <span class="divider"></span> Media Detail Right <span class="divider"></span> Away with any one you <span class="divider"></span> want </p>
-             </div>
-             </div>
-            <div class="mx-2 btn-card ">
-                <button class="bg-dark w-100 py-3 border-0 text-white rounded-pill">
-                    Download now
-                </button>
-              </div>
+        <div class="col-12 col-md-3">
+         <div class="text-center">
+          <img src="/assets/images/unique-feature-2.svg" class="img-fluid" alt="">
+          <h4>No App</h4>
+          <p class="light-color">You dont need an app to work for TIKL </p>
          </div>
         </div>
-        <div class="col-12 col-md-4 ">
-            <div class="card-3-top-padding">
-             <div class="card card-border border-0  bg-light rounded pb-5">
-                 <div class="card-pic text-center">
-                     <img src="./assets/images/card-3.svg" class="img-fluid" alt="">
-                 </div>
-                <div class="text-center px-3">
-                 <h4 >3. Share it with Everyone</h4>
-                 <p class="card-paragraph light-color ">Share your Social <span class="divider"></span> Media Detail Right <span class="divider"></span> Away with any one you <span class="divider"></span> want </p>
-             </div>
-             </div>
-            
-            <div class="mx-2 btn-card ">
-                <button class="bg-dark w-100 py-3 border-0 text-white rounded-pill">
-                    Download now
-                </button>
-              </div>
+        <div class="col-12 col-md-3">
+         <div class="text-center">
+          <img src="/assets/images/unique-feature-3.svg" class="img-fluid" alt="">
+          <h4>My TIKL</h4>
+          <p class="light-color">Upi will own cutome link TIKL.com/username </p>
+         </div>
+        </div>
+        <div class="col-12 col-md-3">
+         <div class="text-center">
+          <img src="/assets/images/unique-feature-4.svg" class="img-fluid" alt="">
+          <h4>Update</h4>
+          <p class="light-color">Edit your information any time you want  </p>
          </div>
         </div>
       </div>
-     
-      <!----------------------------------------- How it Works Section Ended --------------------------------->
-     
-      <!-------------------------------------------- FAQ Section Started ------------------------------------->
-      
-      <h5 class="text-center pt-5 m-0">FREQUENTLY ASKED QUESTIONS</h5>
-      <div class="d-flex justify-content-center">
-        <hr class=" w-25 m-0 ">
+    </section>
+
+    <!---------------------------------------- Unique Features Section Ended---------------------------->
+
+    <!-------------------------------------------- FAQ Section Started ------------------------------------->
+
+    <h5 class="text-center pt-5 m-0">FREQUENTLY ASKED QUESTIONS</h5>
+    <div class="d-flex justify-content-center">
+      <hr class=" w-25 m-0 ">
     </div>
     <p class="text-center pb-3">Check all FAQ's</p>
 
     <!--------------------------------------------- Accordians Started --------------------------------------->
 
     <div class="accordion" id="accordionExample">
-        <div class="accordion-item border-0">
-          <h2 class="accordion-header " id="headingOne">
-            <button class="accordion-button bg-light text-dark rounded-pill  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                WHat is a digital TIKL card ?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item border-0">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button bg-light text-dark rounded-pill collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How does a digital business card works ? 
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item border-0">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button bg-light text-dark rounded-pill  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                WHat are the benefits of using TIKL card ?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header " id="headingOne">
+          <button class="accordion-button bg-light text-dark rounded-pill  type=" button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            WHat is a digital TIKL card ?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
       </div>
-
-        <!------------------------------------------- Accordians Ended --------------------------------------->
-
-        <div class="text-center my-5">
-          <a href="#">
-            <button class="bg-dark rounded-pill text-white px-4 py-2" >
-                Get More Help
-            </button>
-          </a>
-        </div>
-      <!----------------------------------------------- FAQ Section Ended ---------------------------------------->
-      
-      <!--------------------------------------------- Form Section Started --------------------------------------->
-    
-      <h5 class="text-center m-0">GET IN TOUCH </h5>
-      <div class="d-flex justify-content-center">
-        <hr class=" w-25 m-0 ">
-      </div>
-      <!-- Form -->
-      <div class="row mt-5">
-        <div class="col-12 col-md-4">
-            <form action="">
-                <input type="text" placeholder="Your name" class="form-control rounded-pill py-3">
-                <input type="email" placeholder="Your email" class="form-control rounded-pill py-3 my-3">
-            </form>
-        </div>
-        <div class="col-12 col-md-8">
-            <form action="">
-                <textarea name="" id="" cols="10" rows="5" class="form-control  px-5" placeholder="Your message"></textarea>
-            </form>
-        </div>
-        <div class="text-end mb-5">
-            <a href="#">
-                <button class="bg-dark rounded-pill text-white px-5 py-2" >
-                    Send
-                </button>
-            </a>
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button bg-light text-dark rounded-pill collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How does a digital business card works ?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
         </div>
       </div>
-
-        <!--------------------------------------------- Form Section Ended ----------------------------------->
-        
-        <!------------------------------------------- Footer Section Started --------------------------------->
-        
-        <footer class="bg-dark mt-5 p-4">
-            <div class="">
-                <img src="./assets/images/logo.svg" class="img-fluid" alt="">
-            </div>
-            <div class="text-center">
-                <img src="./assets/images/qr-code.svg" class="img-fluid" alt="">
-                <p class="text-white pt-2">Scan and get TIKL</p>
-
-                <!---------------------------------------- Social Icons -------------------------------------->
-
-                <div class="d-flex justify-content-center gap-3 pb-2">
-                   <a href="#">
-                    <i class='bx bxl-facebook text-white fs-2'></i>
-                   </a>
-                   <a href="#">
-                    <i class='bx bxl-youtube text-white fs-2'></i>
-                   </a>
-                    <a href="#">
-                        <i class='bx bxl-instagram text-white fs-2'></i>
-                    </a>
-                    <a href="#">
-                        <i class='bx bxl-twitter text-white fs-2'></i>
-                    </a>
-                </div>
-            </div>
-             
-            
-            <div class="d-flex justify-content-center">
-            <ul class="d-flex gap-3 ">
-                <li>
-                    <a href="#" class="text-decoration-none light-color">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none light-color">Pro/Price</a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none light-color">FAQs</a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none light-color">Contact us</a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none light-color">Privacy</a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none light-color">Terms Policy</a>
-                </li>
-            </ul>
-           
+      <div class="accordion-item border-0">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button bg-light text-dark rounded-pill  collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+            aria-controls="collapseThree">
+            WHat are the benefits of using TIKL card ?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
         </div>
-        <p class="text-center light-color m-0">© 2023 TIKL. Patented Technology</p>
-        </footer>
-
-        <!-------------------------------------------- Footer Section Ended ---------------------------------->
-
-    
+      </div>
     </div>
 
-  
+    <!------------------------------------------- Accordians Ended --------------------------------------->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="text-center my-5">
+      <a href="#">
+        <button class="bg-dark rounded-pill text-white px-4 py-2">
+          Get More Help
+        </button>
+      </a>
+    </div>
+    <!----------------------------------------------- FAQ Section Ended ---------------------------------------->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <!--------------------------------------------- Form Section Started --------------------------------------->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+    <h5 class="text-center m-0">GET IN TOUCH </h5>
+    <div class="d-flex justify-content-center">
+      <hr class=" w-25 m-0 ">
+    </div>
+    <!-- Form -->
+    <div class="row mt-5">
+      <div class="col-12 col-md-4">
+        <form action="">
+          <input type="text" placeholder="Your name" class="form-control rounded-pill py-3">
+          <input type="email" placeholder="Your email" class="form-control rounded-pill py-3 my-3">
+        </form>
+      </div>
+      <div class="col-12 col-md-8">
+        <form action="">
+          <textarea name="" id="" cols="10" rows="5" class="form-control  px-5" placeholder="Your message"></textarea>
+        </form>
+      </div>
+      <div class="text-end mb-5">
+        <a href="#">
+          <button class="bg-dark rounded-pill text-white px-5 py-2">
+            Send
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!--------------------------------------------- Form Section Ended ----------------------------------->
+
+    <!------------------------------------------- Footer Section Started --------------------------------->
+
+    <footer class="bg-dark mt-5 p-4">
+
+      <img src="./assets/images/logo.svg" class="img-fluid" alt="">
+
+      <div class="text-center">
+        <img src="./assets/images/qr-code.svg" class="img-fluid" alt="">
+        <p class="text-white pt-2">Scan and get TIKL</p>
+
+
+        <div class="d-flex justify-content-center gap-3 pb-2">
+          <a href="#">
+            <i class='bx bxl-facebook text-white fs-2'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-youtube text-white fs-2'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram text-white fs-2'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-twitter text-white fs-2'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center gap-2">
+        <div class="row text-center">
+          <div class="col-4 col-md-auto">
+            <a href="#" class="text-decoration-none light-color">Home</a>
+          </div>
+          <div class="col-4 col-md-auto">
+            <a href="#" class="text-decoration-none light-color">Pro/Price</a>
+          </div>
+          <div class="col-4 col-md-auto">
+            <a href="#" class="text-decoration-none light-color">FAQs</a>
+          </div>
+          <div class="col-4 col-md-auto">
+            <a href="#" class="text-decoration-none light-color">Contact us</a>
+          </div>
+          <div class="col-4 col-md-auto">
+            <a href="#" class="text-decoration-none light-color">Privacy</a>
+          </div>
+          <div class="col-4 col-md-auto">
+            <a href="#" class="text-decoration-none light-color">Terms Policy</a>
+          </div>
+        </div>
+      </div>
+      <p class="text-center light-color mt-3 mb-0 ">© 2023 TIKL. Patented Technology</p>
+    </footer>
+
+    <!-------------------------------------------- Footer Section Ended ---------------------------------->
+
+
+  </div>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
